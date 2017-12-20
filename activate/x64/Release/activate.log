@@ -1,0 +1,35 @@
+﻿Build started 2017-12-09 14:16:23.
+     1>Project "F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing activate.h...
+         Uic'ing activate.ui...
+         Rcc'ing activate.qrc...
+     1>RCC : warning : No resources in 'F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_activate.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_activate.cpp, GeneratedFiles\Release\moc_activate.cpp.
+       ClCompile:
+         E:\NI\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtCore /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtGui /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt activate.cpp AES.cpp Base64.cpp checkNetwork.cpp GeneratedFiles\Release\moc_activate.cpp main.cpp
+         activate.cpp
+         AES.cpp
+     1>AES.cpp(1188): warning C4804: '<=' : unsafe use of type 'bool' in operation
+         Base64.cpp
+         checkNetwork.cpp
+         moc_activate.cpp
+         main.cpp
+         Generating Code...
+         E:\NI\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtCore /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtGui /IE:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_activate.cpp
+         qrc_activate.cpp
+       Link:
+         E:\NI\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\x64\Release\\activate.exe" /NOLOGO /LIBPATH:E:\NI\Qt5.5.0_vs2013_x64\5.5\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Kinect20.lib OpenCl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\x64\Release\activate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\x64\Release\activate.lib" /MACHINE:X64 x64\Release\activate.obj
+         x64\Release\AES.obj
+         x64\Release\Base64.obj
+         x64\Release\checkNetwork.obj
+         x64\Release\qrc_activate.obj
+         x64\Release\moc_activate.obj
+         x64\Release\main.obj
+         activate.vcxproj -> F:\NI\Practice\MicroBridge\LPR\20171206\activate\x64\Release\activate.exe
+     1>Done Building Project "F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86
