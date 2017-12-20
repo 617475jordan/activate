@@ -1,10 +1,10 @@
-﻿Build started 2017-12-20 16:39:06.
-     1>Project "F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 2017-12-20 18:57:26.
+     1>Project "F:\NI\Practice\MicroBridge\LPR\20171220\activate\activate\activate.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Moc'ing activate.h...
          Uic'ing activate.ui...
          Rcc'ing activate.qrc...
-     1>RCC : warning : No resources in 'F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.qrc'.
+     1>RCC : warning : No resources in 'F:\NI\Practice\MicroBridge\LPR\20171220\activate\activate\activate.qrc'.
          
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_activate.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_activate.cpp, GeneratedFiles\Release\moc_activate.cpp.
        ClCompile:
@@ -23,7 +23,7 @@
        ResourceCompile:
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\activate.res" activate.rc 
        Link:
-         E:\NI\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\Win32\Release\\activate.exe" /NOLOGO /LIBPATH:E:\NI\Qt5.5.0_vs2013_x86\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib freeglut.lib glew32.lib glfw3dll.lib kinect20.lib Identification.lib FaceDetection.lib FaceAlignment.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\Win32\Release\activate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\NI\Practice\MicroBridge\LPR\20171206\activate\Win32\Release\activate.lib" /MACHINE:X86 /SAFESEH Release\activate.res
+         E:\NI\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\NI\Practice\MicroBridge\LPR\20171220\activate\Win32\Release\\activate.exe" /NOLOGO /LIBPATH:E:\NI\Qt5.5.0_vs2013_x86\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib freeglut.lib glew32.lib glfw3dll.lib kinect20.lib Identification.lib FaceDetection.lib FaceAlignment.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\NI\Practice\MicroBridge\LPR\20171220\activate\Win32\Release\activate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\NI\Practice\MicroBridge\LPR\20171220\activate\Win32\Release\activate.lib" /MACHINE:X86 /SAFESEH Release\activate.res
          Release\activate.obj
          Release\AES.obj
          Release\Base64.obj
@@ -32,9 +32,9 @@
          Release\moc_activate.obj
          Release\getHardInformation.obj
          Release\main.obj
-         activate.vcxproj -> F:\NI\Practice\MicroBridge\LPR\20171206\activate\Win32\Release\activate.exe
-     1>Done Building Project "F:\NI\Practice\MicroBridge\LPR\20171206\activate\activate\activate.vcxproj" (Rebuild target(s)).
+         activate.vcxproj -> F:\NI\Practice\MicroBridge\LPR\20171220\activate\Win32\Release\activate.exe
+     1>Done Building Project "F:\NI\Practice\MicroBridge\LPR\20171220\activate\activate\activate.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:07.05
+Time Elapsed 00:00:07.77

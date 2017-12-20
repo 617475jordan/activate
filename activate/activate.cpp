@@ -200,6 +200,7 @@ void activate::on_activatePushButton_clicked()
 		QMessageBox::information(this, QString::fromLocal8Bit("友情提示"), QString::fromLocal8Bit("激活成功"));
 		backUp(m_text);
 		m_text.clear();
+		m_isOk = true;
 		return;
 	}
 	
